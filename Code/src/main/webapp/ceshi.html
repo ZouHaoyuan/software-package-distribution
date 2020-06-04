@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form name="punchout_form" method="post" action="https://openapi.alipaydev.com/gateway.do?charset=utf-8&method=alipay.trade.wap.pay&sign=gLKQq8p0oCPEqQ8oeAuVoKts7cmvUmlKJalbG%2Fu5Lykghd0JQ6uuT13soPEw1bsdA9NKFkZoBs%2FEfTX8l83QpbfR2ARDsyC7FI4xW1KYAHbw%2FcA6SnEY8QkXaXwmdNrWkdScSNT9ElvnRMBRKGRhlTgGQwv0bXumD8%2FmG6I4d1doShCB%2FnKRPw%2FqeOr1Nj%2F6OfZqU%2BfHcoPOrwEN3VY%2FhW7BfO8Y9zTTDq725kpayl%2FiRy%2BDN4uaUw9Cl24T1Q2g4FNtI8tCqo6t8Bcskd%2BAiYw9OFQ479drgkqnci9i5PRzMASrI9GtRKhOV%2BQWVzfcRKZd8y60WQcHQRYRkXqtIQ%3D%3D&version=1.0&app_id=2016102200741364&sign_type=RSA2&timestamp=2020-05-13+12%3A36%3A08&alipay_sdk=alipay-sdk-java-4.8.10.ALL&format=json">
+    <input type="hidden" name="biz_content" value="{ &quot;out_trade_no&quot;:&quot;222550420010101017&quot;, &quot;total_amount&quot;:&quot;88.88&quot;, &quot;subject&quot;:&quot;Iphone6 16G&quot;, &quot;product_code&quot;:&quot;FAST_INSTANT_TRADE_PAY&quot; }">
+    <input type="submit" value="立即支付" style="display:none" >
+</form>
+<script>document.forms[0].submit();</script>
+</body>
+</html>
