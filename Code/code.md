@@ -10,7 +10,7 @@
 
 支付宝为普通商户提供如下支付产品：
 
-![img](./img/image002.jpg)
+![Image ](./img/image002.jpg)
 
 电脑网站支付：
 
